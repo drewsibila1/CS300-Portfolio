@@ -1,0 +1,19 @@
+# Runtime Analysis of Data Structures
+
+## Vector
+- **Loading Data:** O(n)
+- **Searching:** O(n)
+- **Sorting:** O(n log n)
+
+## Hash Table
+- **Loading Data:** O(n)
+- **Searching:** O(1) (on average)
+- **Sorting:** O(n log n) (since it needs conversion to a list)
+
+## Binary Search Tree (BST)
+- **Loading Data:** O(n log n)
+- **Searching:** O(log n)
+- **Sorting:** O(n)
+
+### **Best Choice**
+After testing, the **hash table** is the most efficient data structure for this program. It provides the fastest lookup time (O(1) on average), making it ideal for searching courses quickly.
